@@ -34,6 +34,13 @@ public class SolveMaze {
          * Feel free to adjust this number if you experiment with other mazes.
          */
         for (int step = 0; step < 1000; step++) {
+            try {
+                Thread.sleep(4000);
+                System.out.println(maze);
+
+
+
+            } catch (Exception e) { }
             // Implement your maze solving algorithm here
             while (!maze.isFinished()) {
 
